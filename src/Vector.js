@@ -34,4 +34,8 @@ export default class Vector {
         this.y = this.y / vec.y
         return this
     }
+
+    toString() {
+        return `[Vector ${this.x} ${this.y}]`
+    }
 }
